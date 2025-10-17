@@ -1,0 +1,20 @@
+# Ignore environment variable files
+.env
+.env.*
+!.env.example
+
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use JS tools)
+node_modules/
